@@ -1,0 +1,200 @@
+/* @import "../omarchy/current/theme/waybar.css"; */
+
+* {
+  /* background-color: @background; */
+  /* color: @foreground; */
+
+  border: none;
+  border-radius: 0px;
+  padding: 1.55px 1.55px;
+  min-height: 0;
+  font-family: 'JetBrainsMono Nerd Font';
+  font-size: 12px;
+}
+
+window#waybar {
+  background-color: #181825;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  margin-top: 0;
+}
+
+window#waybar.hidden {
+  opacity: 0.5;
+}
+
+.modules-left {
+  margin-left: 4px;
+}
+
+.modules-right {
+  margin-right: 4px;
+}
+
+/* #workspaces button { */
+/*   all: initial; */
+/*   padding: 0 6px; */
+/*   margin: 0 1.5px; */
+/*   min-width: 9px; */
+/* } */
+
+#workspaces {
+  background-color: #181825;
+}
+
+#workspaces button {
+  all: initial;
+  /* Remove GTK theme values (waybar #1351) */
+  min-width: 0;
+  /* Fix weird spacing in materia (waybar #450) */
+  box-shadow: inset 0 -3px transparent;
+  /* Use box-shadow instead of border so the text isn't offset */
+  padding: 0px 8px;
+  margin: 2px 0px;
+  border-radius: 4px;
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+}
+
+#workspaces button.active {
+  color: #1e1e2e;
+  background-color: #eed49f;
+}
+
+#workspaces button:hover {
+  box-shadow: inherit;
+  text-shadow: inherit;
+  color: #1e1e2e;
+  background-color: #cdd6f4;
+}
+
+#workspaces button.urgent {
+  background-color: #f38ba8;
+}
+
+/* #workspaces button.active, #workspaces button.persistent, #window, #cpu, #pulseaudio, #clock{ */
+/*   color: #F7768E; */
+/* } */
+
+
+#memory {
+  color: #E0AF68;
+}
+
+#network {
+  color: #9DCD6A;
+}
+
+/* #workspaces button.empty, #bluetooth{ */
+/*   color: #79C7F6; */
+/* } */
+
+#battery, #custom-weather, #mpris {
+  color: #BA9AF6;
+}
+
+#backlight, #custom-weather, #memory, #mpris, #window, #workspaces, #clock,
+#tray,
+#cpu,
+#battery,
+#network,
+#bluetooth,
+#pulseaudio,
+#custom-omarchy,
+#custom-screenrecording-indicator,
+#custom-update {
+  min-width: 6px;
+  margin: 5 0 5 7.5;
+  padding: 0 10 0 10;
+  border-radius: 4px;
+  background-color: #1e1e2e;
+  color: #181825;
+
+}
+
+#custom-expand-icon {
+  margin-right: 7px;
+}
+
+tooltip {
+  padding: 2px;
+}
+
+#window{
+  background-color: #f4dbd6;
+}
+
+#custom-update {
+  font-size: 10px;
+}
+
+#network {
+  background-color: #94e2d5;
+  padding-right: 17px;
+}
+
+#backlight{
+  background-color: #f5bde6;
+}
+
+#bluetooth{
+  background-color: #f9e2af;
+}
+
+#cpu {
+  background-color: #fab387;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+#clock {
+  font-family: JetBrainsMono Nerd Font;
+  background-color: #cba6f7;
+}
+
+#battery {
+  background-color: #f38ba8;
+}
+
+#custom-weather{
+  background-color: #a6e3a1;
+}
+
+#pulseaudio{
+  background-color: #89dceb;
+}
+
+#custom-screenrecording-indicator {
+  min-width: 12px;
+  margin-left: 8.75px;
+  font-size: 10px;
+
+  padding: 0 11 0 10;
+}
+
+#custom-screenrecording-indicator.active {
+  color: #a55555;
+}
+
+
+/* EXTRA FIX! */
+
+#mpris {
+  margin-right: 10px;
+  background-color:#fab387;
+}
+
+tooltip {
+  border-radius: 10px;
+}
+#custom-omarchy {
+  background-color: #8aadf4;
+  margin-left: 0px;
+  padding: 0 12 0 8px;
+}
+
+window#waybar.empty #window{
+  padding-right: 2.5px;
+}
