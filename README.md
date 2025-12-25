@@ -25,6 +25,14 @@ omarchy-theme-install https://github.com/ankur311sudo/catppu_mocha
 
 ## Waybar Configuration
 
-For waybar just copy the config.jsonc and style.css file present int the mocha directory and enjoy the catppu_mocha waybar 😼!
+For the below waybar just copy the config.jsonc and style.css file present int the new_waybar directory and enjoy the catppu_mocha waybar 😼!
 
-See `mocha` for waybar.
+<img width="2240" height="56" alt="screenshot-2025-12-25_23-37-58" src="https://github.com/user-attachments/assets/64ce86e5-2b93-41d3-851d-75358e2a69e4" />
+
+See `new_waybar` for waybar.
+
+For this waybay check out the mocha directory !
+<img width="2238" height="87" alt="screenshot-2025-12-25_23-43-14" src="https://github.com/user-attachments/assets/3cb38ddb-3135-4aad-98eb-014961769863" />
+
+See 'mocha' for above waybar. 
+
