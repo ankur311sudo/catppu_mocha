@@ -11,8 +11,10 @@ Per fect for late-night coding vibes.
 <img width="2240" height="1400" alt="screenshot-2025-12-25_19-30-17" src="https://github.com/user-attachments/assets/df2a9bc5-89fa-44f2-af22-9d3cdd1bf346" />
 
 # Backgounds
-<img width="2240" height="1400" alt="screenshot-2025-12-07_21-44-58" src="https://github.com/user-attachments/assets/4e1b995e-2a77-40f7-974c-a3d7c7278965" />
+
 <img width="2240" height="1400" alt="screenshot-2025-12-25_19-21-51" src="https://github.com/user-attachments/assets/46601247-d534-406c-a800-18829b032d84" />
+
+<img width="2240" height="1400" alt="screenshot-2025-12-07_21-44-58" src="https://github.com/user-attachments/assets/4e1b995e-2a77-40f7-974c-a3d7c7278965" />
 
 
 ## Installation
@@ -32,6 +34,7 @@ For the below waybar just copy the config.jsonc and style.css file present int t
 See `new_waybar` for waybar.
 
 For this waybay check out the mocha directory !
+
 <img width="2238" height="87" alt="screenshot-2025-12-25_23-43-14" src="https://github.com/user-attachments/assets/3cb38ddb-3135-4aad-98eb-014961769863" />
 
 See `mocha` for waybar. 
