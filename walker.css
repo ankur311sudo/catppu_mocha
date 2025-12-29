@@ -45,7 +45,12 @@ child:hover {
 
 child:selected {
   background: linear-gradient(90deg, alpha(@accent, 0.2), transparent 100%);
+  /* background: #caa6f7; */
+  border-radius: 4px; 
+  color: #000000;
   border-left: 0px solid @accent;
 }
+
+
 
 
